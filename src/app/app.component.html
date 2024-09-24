@@ -1,4 +1,15 @@
-<h1 [ngStyle]="{
-  'color':'red'
-}" >MyResto</h1>
-<app-order-page/>
+<pwa-install manifest-url="/manifest.webmanifest"
+install-description="Custom call to install text">
+</pwa-install>
+<h1>v6</h1>
+<app-updates-notification></app-updates-notification>
+<ul>
+  <li>
+    <a routerLink ="./home">Home</a>
+  </li>
+
+  <li>
+    <a routerLink ="./admin">Kitchen</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>

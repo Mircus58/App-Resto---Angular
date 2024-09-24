@@ -3,6 +3,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "types": ["dom-chromium-installation-events", "web-app-manifest"],
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,

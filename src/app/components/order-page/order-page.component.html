@@ -1,17 +1,31 @@
-<ul>
-    <li *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid">
-        {{category.title | uppercase}}
-    </li>
-</ul>
+<ion-content>
 
-<ul>
-    <li *ngFor="let category of categories$|async|filterByCategoryID: selectedCategoryId">
-        <ul>
-            <li *ngFor="let recipe of category.recipes">
-                <h2>{{recipe.title}}</h2>
-                <p>{{recipe.description}}</p>
-                <span> {{recipe.price}} </span>
-            </li>
-        </ul>
-    </li>
-</ul>
+
+<ion-grid>
+
+    {{title}}
+    <ion-row size="">
+        <ion-list lines="full">
+        <ion-item *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid" class="ion-text-center">
+            <ion-label>{{category.title | uppercase}}</ion-label> 
+        </ion-item>
+    </ion-list>
+    </ion-row>
+    
+        
+    
+    <ion-list *ngIf="categories$ | async as categorieData">
+        <ion-list *ngFor="let category of categorieData|filterByCategoryID: selectedCategoryId">
+                <ion-item *ngFor="let recipe of category.recipes" >
+                    <ion-label>{{recipe.title}}</ion-label>
+                    <ion-label>{{recipe.description}}</ion-label>
+                    <ion-label> {{recipe.price}} </ion-label>
+                    <button (click)="addToForm(recipe.uuid, recipe.price)"> add</button>
+                     <button (click)="deleteForm(recipe.uuid)">delete</button>
+                </ion-item>
+        </ion-list>
+    </ion-list>
+
+
+</ion-grid>
+</ion-content>
