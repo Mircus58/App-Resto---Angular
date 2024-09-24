@@ -4,13 +4,13 @@ import { RestoCategorie } from "../../interfaces";
 import { AsyncPipe, NgFor, NgIf, UpperCasePipe } from "@angular/common";
 import { FilterByCategoryIDPipe } from "../../pipes/filterByCategoryID/filter-by-category-id.pipe";
 import { FormArray, FormControl, FormGroup, Validators } from "@angular/forms"
-import { IonCard, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonList, IonRow } from '@ionic/angular/standalone';
+import { IonCard, IonCardHeader, IonCol, IonContent, IonGrid, IonItem, IonLabel, IonList, IonRow } from '@ionic/angular/standalone';
 
 
 @Component({
   selector: 'app-order-page',
   standalone: true,
-  imports: [NgFor, UpperCasePipe, FilterByCategoryIDPipe, AsyncPipe, NgIf, IonList, IonLabel, IonItem, IonGrid, IonCol, IonRow, IonCard, IonContent],
+  imports: [NgFor, UpperCasePipe, FilterByCategoryIDPipe, AsyncPipe, NgIf, IonList, IonLabel, IonItem, IonGrid, IonCol, IonRow, IonCard, IonContent, IonCardHeader],
   templateUrl: './order-page.component.html',
   styleUrl: './order-page.component.css'
 })

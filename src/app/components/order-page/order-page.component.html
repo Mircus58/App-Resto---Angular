@@ -1,31 +1,59 @@
 <ion-content>
-
-
-<ion-grid>
-
-    {{title}}
-    <ion-row size="">
-        <ion-list lines="full">
-        <ion-item *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid" class="ion-text-center">
-            <ion-label>{{category.title | uppercase}}</ion-label> 
-        </ion-item>
-    </ion-list>
-    </ion-row>
-    
+    <ion-grid>
+        <ion-row>
+            <ion-col size="auto">
+                {{title}}
+                <ion-list lines="full">
+                    <ion-item *ngFor="let category of categories$|async" (click)="selectedCategoryId=category.uuid"
+                        class="ion-text-center">
+                        <ion-label>{{category.title | uppercase}}</ion-label>
+                    </ion-item>
+                </ion-list>
+            </ion-col>
         
-    
-    <ion-list *ngIf="categories$ | async as categorieData">
-        <ion-list *ngFor="let category of categorieData|filterByCategoryID: selectedCategoryId">
-                <ion-item *ngFor="let recipe of category.recipes" >
-                    <ion-label>{{recipe.title}}</ion-label>
-                    <ion-label>{{recipe.description}}</ion-label>
-                    <ion-label> {{recipe.price}} </ion-label>
-                    <button (click)="addToForm(recipe.uuid, recipe.price)"> add</button>
-                     <button (click)="deleteForm(recipe.uuid)">delete</button>
-                </ion-item>
-        </ion-list>
-    </ion-list>
 
 
-</ion-grid>
+        <ion-col>
+            <ion-card *ngIf="categories$ | async as categorieData">
+                <ion-card-header *ngFor="let category of categorieData|filterByCategoryID: selectedCategoryId">
+
+                </ion-card-header>
+                <!-- on ajoute l img dans la carte -->
+                    <ion-list >
+                        <ion-item *ngFor="let recipe of category.recipes">
+                            <ion-label></ion-label>
+                            <ion-label>{{recipe.title}}</ion-label>
+                            <ion-label>{{recipe.description}}</ion-label>
+                            <ion-label> {{recipe.price}} </ion-label>
+                            <button (click)="addToForm(recipe.uuid, recipe.price)"> add</button>
+                            <button (click)="deleteForm(recipe.uuid)">delete</button>
+                        </ion-item>
+                    </ion-list>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+    </ion-grid>
 </ion-content>
+
+
+<!-- <ion-card *ngIf="recipe">
+  Image de la recette
+  <img [src]="recipe.imageUrl" alt="{{ recipe.title }}" />
+
+  En-tête de la carte avec titre et sous-titre
+  <ion-card-header>
+    <ion-card-title>{{ recipe.title }}</ion-card-title>
+    <ion-card-subtitle>{{ recipe.category | uppercase }}</ion-card-subtitle>
+  </ion-card-header>
+
+  Contenu de la carte avec description et prix
+  <ion-card-content>
+    <p>{{ recipe.description }}</p>
+    <p><strong>Prix : </strong>{{ recipe.price | currency:'EUR' }}</p>
+  </ion-card-content>
+
+  Boutons d'action
+  <ion-button fill="solid" (click)="addToForm(recipe.uuid, recipe.price)">Ajouter au Panier</ion-button>
+  <ion-button fill="outline" color="danger" (click)="deleteForm(recipe.uuid)">Supprimer</ion-button>
+</ion-card> -->
+
