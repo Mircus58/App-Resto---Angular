@@ -16,10 +16,7 @@
         <ion-col>
             <ion-card *ngIf="categories$ | async as categorieData">
                 <ion-card-header *ngFor="let category of categorieData|filterByCategoryID: selectedCategoryId">
-
-                </ion-card-header>
-                <!-- on ajoute l img dans la carte -->
-                    <ion-list >
+<ion-list >
                         <ion-item *ngFor="let recipe of category.recipes">
                             <ion-label></ion-label>
                             <ion-label>{{recipe.title}}</ion-label>
@@ -29,6 +26,9 @@
                             <button (click)="deleteForm(recipe.uuid)">delete</button>
                         </ion-item>
                     </ion-list>
+                </ion-card-header>
+                <!-- on ajoute l img dans la carte -->
+                    
             </ion-card>
         </ion-col>
     </ion-row>
