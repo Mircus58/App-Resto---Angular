@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1727260598794,
+  "index": "Mircus58/App-Resto---Angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "Mircus58/App-Resto---Angular/chunk-2RJVFJ7U.js",
+        "Mircus58/App-Resto---Angular/chunk-32C4WO7X.js",
+        "Mircus58/App-Resto---Angular/chunk-4WFVMWDK.js",
+        "Mircus58/App-Resto---Angular/chunk-AEH2CUDJ.js",
+        "Mircus58/App-Resto---Angular/chunk-B43CU5JX.js",
+        "Mircus58/App-Resto---Angular/chunk-BH3VLNJR.js",
+        "Mircus58/App-Resto---Angular/chunk-CDJRJDL7.js",
+        "Mircus58/App-Resto---Angular/chunk-DUO2PIHD.js",
+        "Mircus58/App-Resto---Angular/chunk-F7XBNY6P.js",
+        "Mircus58/App-Resto---Angular/chunk-FA25AEA4.js",
+        "Mircus58/App-Resto---Angular/chunk-FLF5UW5N.js",
+        "Mircus58/App-Resto---Angular/chunk-GRRRX3E3.js",
+        "Mircus58/App-Resto---Angular/chunk-IIQBCANW.js",
+        "Mircus58/App-Resto---Angular/chunk-JHI3MBHO.js",
+        "Mircus58/App-Resto---Angular/chunk-LF5XB4YN.js",
+        "Mircus58/App-Resto---Angular/chunk-NMYJD6OP.js",
+        "Mircus58/App-Resto---Angular/chunk-NY7FVCUI.js",
+        "Mircus58/App-Resto---Angular/chunk-NZE4YH4Q.js",
+        "Mircus58/App-Resto---Angular/chunk-OFB3XB3Q.js",
+        "Mircus58/App-Resto---Angular/chunk-OFCTGSWQ.js",
+        "Mircus58/App-Resto---Angular/chunk-QYULWRQI.js",
+        "Mircus58/App-Resto---Angular/chunk-TAFVU7UN.js",
+        "Mircus58/App-Resto---Angular/chunk-TQEIIVVC.js",
+        "Mircus58/App-Resto---Angular/chunk-VBXVYKES.js",
+        "Mircus58/App-Resto---Angular/chunk-XBKZCXLL.js",
+        "Mircus58/App-Resto---Angular/chunk-XO2NPERS.js",
+        "Mircus58/App-Resto---Angular/favicon.ico",
+        "Mircus58/App-Resto---Angular/index.html",
+        "Mircus58/App-Resto---Angular/main-DNWOFS7I.js",
+        "Mircus58/App-Resto---Angular/manifest.webmanifest",
+        "Mircus58/App-Resto---Angular/polyfills-FFHMD2TL.js",
+        "Mircus58/App-Resto---Angular/styles-LUF7REVR.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "Mircus58/App-Resto---Angular/icons/icon-128x128.png",
+        "Mircus58/App-Resto---Angular/icons/icon-144x144.png",
+        "Mircus58/App-Resto---Angular/icons/icon-152x152.png",
+        "Mircus58/App-Resto---Angular/icons/icon-192x192.png",
+        "Mircus58/App-Resto---Angular/icons/icon-384x384.png",
+        "Mircus58/App-Resto---Angular/icons/icon-512x512.png",
+        "Mircus58/App-Resto---Angular/icons/icon-72x72.png",
+        "Mircus58/App-Resto---Angular/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "Mircus58/App-Resto---Angular/chunk-2RJVFJ7U.js": "6bbad71f7d18ac2ee002f213bee9a82f1bff0ad6",
+    "Mircus58/App-Resto---Angular/chunk-32C4WO7X.js": "8ef20121911d1f64e248707a42f2e783886c7a58",
+    "Mircus58/App-Resto---Angular/chunk-4WFVMWDK.js": "5b6d47107e58373ea3dc79e4e6878406e21505e8",
+    "Mircus58/App-Resto---Angular/chunk-AEH2CUDJ.js": "083fcc741049abe6dbbda16be6e6832822c05316",
+    "Mircus58/App-Resto---Angular/chunk-B43CU5JX.js": "73485691923b650ef3c649d634c71239c18c0416",
+    "Mircus58/App-Resto---Angular/chunk-BH3VLNJR.js": "f275dbd430aa08774de943fe2ff8e892a9408ae2",
+    "Mircus58/App-Resto---Angular/chunk-CDJRJDL7.js": "d2b6563b3a27c85974942a011996e4d5492e1ae2",
+    "Mircus58/App-Resto---Angular/chunk-DUO2PIHD.js": "8684c17a5cbf6b29670ebf6f9169a86e588d3640",
+    "Mircus58/App-Resto---Angular/chunk-F7XBNY6P.js": "f8aa0d06431c3ca3e5a7aa7435cfbea110325570",
+    "Mircus58/App-Resto---Angular/chunk-FA25AEA4.js": "67b189f290ca6770c1314e442b21f2feb4f64d07",
+    "Mircus58/App-Resto---Angular/chunk-FLF5UW5N.js": "ae3c2e96641aa5318a7e18b08ece8442601ac3c8",
+    "Mircus58/App-Resto---Angular/chunk-GRRRX3E3.js": "ad116b95e173800f7c32fedd25c6fda55790d2a5",
+    "Mircus58/App-Resto---Angular/chunk-IIQBCANW.js": "2c8ffd94460874491030d6999499bed45f10c34f",
+    "Mircus58/App-Resto---Angular/chunk-JHI3MBHO.js": "a36b3242848dc514776e1c7fd2cc5d64f3a737b2",
+    "Mircus58/App-Resto---Angular/chunk-LF5XB4YN.js": "9a4312a44cc8ab8573488a48a18c01a6bb352c6b",
+    "Mircus58/App-Resto---Angular/chunk-NMYJD6OP.js": "0175118cb5ac5fb567dcfbf6a8bcb81ace8edf1a",
+    "Mircus58/App-Resto---Angular/chunk-NY7FVCUI.js": "e82dd5f46276234ee5841aef3e7fdfb3c4cee46c",
+    "Mircus58/App-Resto---Angular/chunk-NZE4YH4Q.js": "f9340436191dd7fe1eb8e0e02478b9468de68736",
+    "Mircus58/App-Resto---Angular/chunk-OFB3XB3Q.js": "2ab05c652897011f1e86b937bfe1feee607e1c2a",
+    "Mircus58/App-Resto---Angular/chunk-OFCTGSWQ.js": "2a386f13a06886bbee27c54afce7f34f9141f2e5",
+    "Mircus58/App-Resto---Angular/chunk-QYULWRQI.js": "1808003ae6b4ff6a306823fec55e8f2ac486bad9",
+    "Mircus58/App-Resto---Angular/chunk-TAFVU7UN.js": "1851d67c35bb56cd0a0a4766711f7f28048650aa",
+    "Mircus58/App-Resto---Angular/chunk-TQEIIVVC.js": "c7296efb75e44b6c5b31377a35aaf8879f17f8b1",
+    "Mircus58/App-Resto---Angular/chunk-VBXVYKES.js": "5edb89058c0fda44b1a099dd7bc8692159074334",
+    "Mircus58/App-Resto---Angular/chunk-XBKZCXLL.js": "20962d3f193967b76d765869d79376294db545e8",
+    "Mircus58/App-Resto---Angular/chunk-XO2NPERS.js": "e6b5e8e85b568a754cd82fafddafd9079590e2ea",
+    "Mircus58/App-Resto---Angular/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "Mircus58/App-Resto---Angular/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "Mircus58/App-Resto---Angular/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "Mircus58/App-Resto---Angular/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "Mircus58/App-Resto---Angular/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "Mircus58/App-Resto---Angular/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "Mircus58/App-Resto---Angular/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "Mircus58/App-Resto---Angular/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "Mircus58/App-Resto---Angular/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "Mircus58/App-Resto---Angular/index.html": "febfe0925bc0b2daed4d7ede7fa9163de7278ac6",
+    "Mircus58/App-Resto---Angular/main-DNWOFS7I.js": "eea97ce0a2b11db6dce5b9493e3ccfb05d22c4ac",
+    "Mircus58/App-Resto---Angular/manifest.webmanifest": "e6a4f1d046589609e28847025d55532e5daf6dfe",
+    "Mircus58/App-Resto---Angular/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "Mircus58/App-Resto---Angular/styles-LUF7REVR.css": "8a9a7e3107995610f0c99aafd9c9f707f5196fcc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
